@@ -8,11 +8,11 @@ is a Python based web app framework, easing and accelerating web development by 
 [](img/mtv.png)
   
 Django consists of three major parts: Model, Template, and View.  
-* Model
+* Model  
 is a set of tools to work with data and databases.
-* Template
+* Template  
 is a plain-text templating system.
-* View
+* View  
 is a presentation of the Model in a particular format: HTTP.
   
 That is, *Django Model* retrieves data from database, pass them to *View*, then the *View* formats the data in HTTP response and send it to the client(browser), which is templated by the *Template*.

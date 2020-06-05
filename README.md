@@ -18,11 +18,11 @@ a presentation of the Model in a particular format: HTTP.
 That is, *Django Model* retrieves data from database, pass them to *View*, then the *View* formats the data in HTTP response and send it to the client(browser), which is templated by the *Template*.
   
 ## More on MTV(Model, Template, View)
-As Django adopts OOP concept, each component(**M, T, V**) can be considered as one of objects.
 ### Model
-A model object holds all the information about the data to be put on the blog. Each model maps to a single database table, in the form of columns(fields) and rows(data). *Post* is the most obvious example of Django model in creating a blog.
+A model is an object that holds all the information about the data to be put on the blog. Each model maps to a single database table, in the form of columns(fields) and rows(data). *Post* is the most obvious example of Django model in creating a blog.  
 Model object is implemented as a python class that inherits superclass `django.db.models.Model.`
 ### Template
+Template dynamically generates HTML, consisting of both static and dynamic HTML contents.
   
 ## Django Project Structure
 ```python

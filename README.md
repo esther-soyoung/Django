@@ -59,5 +59,5 @@ python manage.py createsuperuser
 ```
   
 ### Reference
-[The Django Book](https://djangobook.com/mdj2-django-structure/). 
+[The Django Book](https://djangobook.com/mdj2-django-structure/)  
 [Django Documentation](https://docs.djangoproject.com/en/3.0)
